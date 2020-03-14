@@ -1,0 +1,8 @@
+build
+conf
+dist
+main.spec
+npc.exe
+.idea
+.virtualenvs
+__pycache__
