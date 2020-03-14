@@ -25,7 +25,7 @@
 
 ### 2 通过命令
 
-`main.py domain port vkey type dns`
+`main domain port vkey type dns`
 
 ## npc
 
