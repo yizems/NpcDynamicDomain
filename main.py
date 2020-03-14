@@ -39,17 +39,17 @@ sleep_time = 10
 if __name__ == '__main__':
     # npc -server=127.0.0.1:7200 -vkey=0ucn6wx7e9zuz4yg -type=tcp
     try:
-        # domain = sys.argv[1]
-        # port = sys.argv[2]
-        # vkey = sys.argv[3]
-        # type = sys.argv[4]
-        # dns = sys.argv[5]
+        domain = sys.argv[1]
+        port = sys.argv[2]
+        vkey = sys.argv[3]
+        type = sys.argv[4]
+        dns = sys.argv[5]
 
-        domain = 'www.yizems.cn'
-        port = '6000'
-        vkey = 'aaa'
-        type = 'tcp'
-        dns = 'f1g1ns1.dnspod.net'
+        # domain = 'www.baidu.cn'
+        # port = '6000'
+        # vkey = 'aaa'
+        # type = 'tcp'
+        # dns = '114.114.114.114'
         while True:
             ip = get_ip(domain, dns)
             if ip is None:
