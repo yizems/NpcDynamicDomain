@@ -45,7 +45,8 @@ if __name__ == '__main__':
         while True:
             ip = get_ip(domain, dns)
             if ip is None:
-                print("域名无法解析")
+                print("域名无法解析:5秒后开始下次执行")
+                time.sleep(5)
                 continue
 
             print(ip)
